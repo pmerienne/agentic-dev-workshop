@@ -18,7 +18,22 @@ Mettre en place un framework de tests et identifier puis corriger le bug de mise
 
 ## DESCRIPTION DU BUG
 
-Le champ `completed` ne se met à jour correctement via `PUT /tasks/{id}` quand on met dans la payload un status=ARCHIVEDer
+Le champ `completed` ne persiste pas lors d'un `PUT /tasks/{id}` avec `status: "ARCHIVED"`.
+
+**Comportement actuel** : L'API retourne 200 OK mais `completed` reste `false` après rechargement.
+
+**Comportement attendu** : `status: "ARCHIVED"` doit automatiquement passer `completed: true` et persister en base.
+
+**Exemple** :
+```json
+PUT /tasks/123
+{ "status": "ARCHIVED" }
+```
+
+**Hypothèses de cause** :
+- La logique métier ne met pas à jour `completed` quand `status` change
+- Un problème de transaction/commit empêche la persistance
+- Une validation bloque la mise à jour silencieusement
 
 ## HOW
 

@@ -16,10 +16,9 @@ Explorer la structure de l'API TaskFlow et comprendre le rôle de chaque composa
 ## HOW
 
 - Utilise **Ask Mode** pour demander :
-    - "Explique-moi la responsabilité de TaskService"
+    - "Explique-moi la responsabilité du service de gestion des tâches"
     - "Analyse le flux complet d'un POST /tasks"
-    - Utilise les symlinks pour faciliter le travail de Copilot
-- Utilise `/explain` dans les fichiers pour comprendre les méthodes clés
+- Surligne du code et utilise `/explain` dans les fichiers pour comprendre les points spécifiques
 - Pose des questions sur les cas limites et la gestion d'erreurs
 
 ## RESSOURCES
