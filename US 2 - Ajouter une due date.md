@@ -5,7 +5,8 @@ En tant que utilisateur, je souhaite définir une date limite pour une tâche, a
 
 Le PM vient de présenter la nouvelle roadmap : un calendrier des deadlines en vue Kanban. Le frontend est prêt, mais l'API ne stocke aucune date d'échéance. Les utilisateurs réclament cette fonctionnalité depuis des mois pour prioriser leurs tâches urgentes. C'est le moment d'implémenter ce champ critique.
 
-## WHAT
+## WHAT
+
 Ajouter une due date au Task.
 Pas de règle métier spécifique, juste assurer le CRUD complet (création, lecture, mise à jour, suppression) de ce champ.
 
