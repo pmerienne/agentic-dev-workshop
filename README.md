@@ -1,0 +1,38 @@
+# Agentic Coding With Github Copilot
+
+Ce repository est un support de workshop pour apprendre le développement agentique d'API et pratiquer les fondamentaux de github copilot.
+
+## 🎯 Objectif
+
+Pratiquer le développement agentic en développant des user stories progressives sur un projet d'API de gestion de tâches. Vous apprendrez à utiliser efficacement GitHub Copilot (modes Ask, Edit et Agent) pour accélérer votre développement tout en maintenant la qualité du code.
+
+
+## Prérequis
+- GitHub Copilot activé dans VS Code
+- Un environnement de développement python ou java (voir `./python` et `./java`)
+
+
+## 📖 Contexte de la mise en situation
+
+Tu es développeur au sein de **TaskFlow**, une startup qui conçoit une plateforme collaborative de gestion de tâches pour équipes projets. L'équipe Backend Core est responsable de l'évolution de l'API interne utilisée aussi bien par le frontend web que par les applications mobiles. L'API actuelle permet de gérer des listes de tâches simples, mais TaskFlow souhaite désormais accélérer très fortement la roadmap. En tant que nouveau développeur, tu rejoins l'équipe pour la renforcer.
+
+## 🚀 Démarrage rapide
+
+### Prérequis
+- GitHub Copilot activé dans VS Code
+- Un environnement de développement python ou java (voir `./python` et `./java`)
+
+
+## 📋 À faire
+
+0. **Installe le projet** avec le language de ton choix (`python/README.md` ou `java/README.md`)
+1. **Lis attentivement** chaque user story (fichiers `US X - ...md`)
+2. **Suis les instructions HOW** qui guident l'utilisation des modes Copilot
+3. **Valides** que tous les critères d'acceptation sont remplis avant de passer à la suivante
+4. **Expérimentes** : n'hésitez pas à essayer différentes formulations de prompts jusqu'à obtenir un prompt qui fonctionne du premier coup
+
+## 🎓 Ressources
+
+- [GitHub Copilot Modes](https://github.blog/ai-and-ml/github-copilot/copilot-ask-edit-and-agent-modes-what-they-do-and-when-to-use-them/)
+- [Explore a codebase with Copilot](https://docs.github.com/en/copilot/tutorials/explore-a-codebase)
+- [Write tests with Copilot](https://docs.github.com/en/copilot/tutorials/write-tests)
