@@ -22,6 +22,15 @@ Tu es développeur au sein de **TaskFlow**, une startup qui conçoit une platefo
 - GitHub Copilot activé dans VS Code
 - Un environnement de développement python ou java (voir `./python` et `./java`)
 
+## 🔌 API Endpoints
+
+L'API existante fournit des endpoints pour la gestion des tâches :
+
+- **GET /tasks** : Récupérer une liste de tâches.
+- **POST /tasks** : Créer une nouvelle tâche.
+- **GET /tasks/{id}** : Récupérer une tâche spécifique par ID.
+- **PUT /tasks/{id}** : Mettre à jour une tâche spécifique par ID.
+- **DELETE /tasks/{id}** : Supprimer une tâche spécifique par ID.
 
 ## 📋 À faire
 
