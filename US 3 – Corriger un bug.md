@@ -16,7 +16,8 @@ Mettre en place un framework de tests et identifier puis corriger le bug de mise
 - **Correction** : implémenter le fix et s'assurer que le test passe
 - **Non-régression** : ajouter des tests pour les autres champs modifiables
 
-## DESCRIPTION DU BUG
+## DESCRIPTION DU BUG
+
 Le champ `completed` ne se met à jour correctement via `PUT /tasks/{id}` quand on met dans la payload un status=ARCHIVEDer
 
 ## HOW
