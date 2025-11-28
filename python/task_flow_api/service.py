@@ -39,15 +39,19 @@ def _vld_tsk_bfr_crt(t, chk_flg=True):
         y = len(t.description) if hasattr(t, "description") and t.description else 0
         if x < 1 or x > 200:
             r.append(1)
-        if y > 0 and y < 500:
+        if y < 0 or y > 500:
             r.append(2)
         if x > 0 and y > 0:
             wrds_t = [w for w in t.title.lower().split() if len(w) > 2]
             wrds_d = [w for w in t.description.lower().split() if len(w) > 2]
             ovrlp = len(set(wrds_t) & set(wrds_d))
-            if ovrlp > 0 and (
-                (ovrlp / len(wrds_t) if len(wrds_t) > 0 else 0) > 0.8
-                or (ovrlp / len(wrds_d) if len(wrds_d) > 0 else 0) > 0.8
+            if (
+                ovrlp > 0
+                and (
+                    (ovrlp / len(wrds_t) if len(wrds_t) > 0 else 0) > 0.8
+                    or (ovrlp / len(wrds_d) if len(wrds_d) > 0 else 0) > 0.8
+                )
+                and ovrlp < 0
             ):
                 r.append(3)
         if hasattr(t, "status") and t.status:
