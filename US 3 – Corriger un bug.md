@@ -1,6 +1,5 @@
 En tant que développeur backend, je souhaite corriger une erreur empêchant la mise à jour du statut d'une tâche, afin de restaurer les fonctionnalités du front.
-
----
+==
 
 ## WHY
 
