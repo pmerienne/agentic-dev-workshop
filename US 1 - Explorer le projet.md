@@ -30,3 +30,4 @@ Explorer la structure de l'API TaskFlow et comprendre le rôle de chaque composa
 
 - Tu peux expliquer le rôle de chaque fichier
 - Tu comprends le flux complet d'une requête HTTP jusqu'à la base de données
+- Tu connais les 
