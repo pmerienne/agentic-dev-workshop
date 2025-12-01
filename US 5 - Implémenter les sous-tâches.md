@@ -110,8 +110,9 @@ Le board vient d'annoncer TaskFlow Premium lors de la keynote annuelle. Les inve
 
 ## HOW
 
-- Avant de coder : utiliser Copilot pour générer **une spécification détaillée** qui découpe cette US en plusieurs sous-tâches à développer (écrite dans des fichiers markdown)
-- Utiliser Copilot pour développer les sous-tâches 1 à 1
+- Avant de coder : utilise Copilot en mode **Plan** pour générer **une spécification détaillée** de cette US. Comme il s'agit de gros changements, demande explicitement à Copilot de découper les besoins en plusieurs petites étapes
+- Une fois le plan prêt, au lieu de démarrer les développement, demande plutôt à copilot d'écrir un fichier de spécifications pour chaque étape
+- Utilise ensuite Copilot en mode agent dans des sessions différentes pour développer les sous-tâches 1 à 1
 
 ## VALIDATION CRITERIA
 
