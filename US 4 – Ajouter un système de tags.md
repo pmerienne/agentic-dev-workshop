@@ -11,7 +11,7 @@ Les utilisateurs power de TaskFlow gèrent des dizaines de tâches simultanémen
 Implémenter un système complet de tags avec relation many-to-many :
 
 - **Modèle `Tag`** : créer une entité avec `id`, `name` unique
-- **Relation** : table d'association `task_tags` pour relier `Task` et `Tag` (many-to-many)
+- **Relation** : table d'association pour relier `Task` et `Tag` (many-to-many)
 - **Endpoints de gestion** :
   - `POST /tasks/{id}/tags` : assigner un ou plusieurs tags à une tâche
   - `DELETE /tasks/{id}/tags/{tag_id}` : retirer un tag d'une tâche
@@ -25,9 +25,9 @@ Implémenter un système complet de tags avec relation many-to-many :
 
 ## HOW
 
-- Commence par utiliser **Ask Mode** pour demander un **plan d'implémentation détaillé** de cette fonctionnalité en copiant/collant les spécifications de cette user-story
-- Passe en mode **Agent** pour suivre le plan et implémenter les développements
-- Demande explicitement la génération de tests unitaires
+- Commence par utiliser **Plan Mode** pour demander un **plan d'implémentation détaillé** de cette fonctionnalité en copiant/collant les spécifications de cette user-story
+- Clique sur "start implementation" pour passer en mode **Agent** et implémenter cette nouvelle fonctionnalité
+- Prend un café et regardes copilot travailler, n'hésites pas à le guider si il commence à se perdre
 
 ## RESSOURCES
 - https://code.visualstudio.com/docs/copilot/chat/chat-planning
