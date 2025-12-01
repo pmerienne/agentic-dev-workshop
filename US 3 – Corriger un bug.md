@@ -1,6 +1,5 @@
 En tant que développeur backend, je souhaite corriger une erreur empêchant la mise à jour du statut d'une tâche, afin de restaurer les fonctionnalités du front.
-
----
+==
 
 ## WHY
 
@@ -18,28 +17,17 @@ Mettre en place un framework de tests et identifier puis corriger le bug de mise
 
 ## DESCRIPTION DU BUG
 
-Le champ `completed` ne persiste pas lors d'un `PUT /tasks/{id}` avec `status: "ARCHIVED"`.
+Le champ `completed` ne persiste pas lors d'un `PUT /tasks/{id}` avec `status: "ARCHIVED"`:
+- **Comportement actuel** : L'API retourne 200 OK mais `completed` reste `false` après rechargement.
+- **Comportement attendu** : `status: "ARCHIVED"` doit automatiquement passer `completed: true` et persister en base.
 
-**Comportement actuel** : L'API retourne 200 OK mais `completed` reste `false` après rechargement.
-
-**Comportement attendu** : `status: "ARCHIVED"` doit automatiquement passer `completed: true` et persister en base.
-
-**Exemple** :
-```json
-PUT /tasks/123
-{ "status": "ARCHIVED" }
-```
-
-**Hypothèses de cause** :
-- La logique métier ne met pas à jour `completed` quand `status` change
-- Un problème de transaction/commit empêche la persistance
-- Une validation bloque la mise à jour silencieusement
 
 ## HOW
 
-- Met en place un framework de test avec **`/setupTests`** ou en demandant "Configure pytest for this FastAPI project"
-- Utilise **`/test`** pour créer un test unitaire qui reproduit le bug
-- Corrige le bug dans l'IDE avec un Quick Fix ou manuellement avec **`/fix`**
+- En mode **Agent**, met en place un framework de test avec **`/setupTests`**
+- Utilise **`/tests`** pour créer un test unitaire qui reproduit le bug
+- Corrige le bug dans l'IDE avec un Quick Fix ou manuellement avec **`/fix the #testFailure`**
+- Tu peux demander à l'agent de lancer automatiquement les tests avec `#runTests`
 
 ## RESSOURCES
 

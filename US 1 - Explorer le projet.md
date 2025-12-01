@@ -3,7 +3,7 @@ En tant que développeur nouvellement onboardé, je souhaite comprendre la struc
 
 ## WHY
 
-C'est ton premier jour chez TaskFlow. Le tech lead t'a donné accès au repo et t'attend demain matin pour ta première PR. Pas de panique : l'équipe utilise GitHub Copilot pour accélérer l'onboarding. Tu dois comprendre rapidement l'architecture actuelle pour être autonome sur les prochaines évolutions.
+C'est ton premier jour chez TaskFlow. Le tech lead t'a donné accès au repo et t'attend demain matin pour ta première PR. Pas de panique : l'équipe utilise GitHub Copilot pour accélérer l'onboarding. Tu dois comprendre rapidement l'architecture actuelle pour être autonome sur les prochaines évolutions. Prend le temps de bien comprendre la validation des tâches, elle est assez complexe.
 
 ## WHAT
 
@@ -14,19 +14,20 @@ Explorer la structure de l'API TaskFlow et comprendre le rôle de chaque composa
 - **Flux de données** : analyser le parcours complet d'une requête `POST /tasks` de l'entrée à la base de données
 
 ## HOW
-
+- Ouvre le chat de copilot avec Ctrl + Alt + I
 - Utilise **Ask Mode** pour demander :
     - "Explique-moi la responsabilité du service de gestion des tâches"
     - "Analyse le flux complet d'un POST /tasks"
-- Surligne du code et utilise `/explain` dans les fichiers pour comprendre les points spécifiques
+- Surligne du code, ouvre l'inline chat (Ctrl + I) et utilise `/explain` pour comprendre la fonction de validation des Task
 - Pose des questions sur les cas limites et la gestion d'erreurs
 
 ## RESSOURCES
 
-- [Explorer une codebase avec Copilot](https://docs.github.com/en/copilot/tutorials/explore-a-codebase#example-prompts)
+- [Best practices for using GitHub Copilot Chat](https://docs.github.com/en/copilot/using-github-copilot/best-practices-for-using-github-copilot#using-github-copilot-chat)
 - [Modes Ask, Edit et Agent](https://github.blog/ai-and-ml/github-copilot/copilot-ask-edit-and-agent-modes-what-they-do-and-when-to-use-them/)
 
 ## VALIDATION CRITERIA
 
 - Tu peux expliquer le rôle de chaque fichier
 - Tu comprends le flux complet d'une requête HTTP jusqu'à la base de données
+- Tu connais les 

@@ -1,5 +1,6 @@
 from contextlib import asynccontextmanager
-from fastapi import FastAPI
+from fastapi import FastAPI, Request
+from fastapi.responses import JSONResponse
 from task_flow_api.api import router as tasks_router
 from task_flow_api.db import init_db
 
@@ -13,6 +14,22 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(lifespan=lifespan)
+
+
+@app.exception_handler(Exception)
+async def global_exception_handler(request: Request, exc: Exception):
+    """
+    Global exception handler that catches all unhandled exceptions
+    and returns a standardized HTTP 503 Service Unavailable response.
+    """
+    return JSONResponse(
+        status_code=503,
+        content={
+            "error": "Service Unavailable",
+            "description": f"An unexpected error occurred: {str(exc)}",
+            "type": type(exc).__name__,
+        },
+    )
 
 
 app.include_router(tasks_router)
