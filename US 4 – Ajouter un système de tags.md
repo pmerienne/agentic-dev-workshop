@@ -26,7 +26,7 @@ Implémenter un système complet de tags avec relation many-to-many :
 
 - Commence par utiliser **Plan Mode** pour demander un **plan d'implémentation détaillé** de cette fonctionnalité en copiant/collant les spécifications de cette user-story
 - Clique sur "start implementation" pour passer en mode **Agent** et implémenter cette nouvelle fonctionnalité
-- Prend un café et regardes copilot travailler, n'hésites pas à le guider si il commence à se perdre
+- Prends un café et regarde copilot travailler, n'hésites pas à le guider si il commence à se perdre
 
 ## RESSOURCES
 - https://code.visualstudio.com/docs/copilot/chat/chat-planning
