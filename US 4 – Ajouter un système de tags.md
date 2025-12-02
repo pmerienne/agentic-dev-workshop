@@ -1,10 +1,9 @@
 En tant que utilisateur, je souhaite pouvoir assigner un ou plusieurs tags à mes tâches, afin de les organiser par catégorie (personnel, travail, urgent, etc.)
-
----
+==
 
 ## WHY
 
-Les utilisateurs power de TaskFlow gèrent des dizaines de tâches simultanément et demandent depuis des mois un système de catégorisation flexible. Contrairement aux projets fixes, les tags permettraient d'organiser dynamiquement leurs tâches ("urgent", "client-X", "perso"). C'est une des fonctionnalités les plus votées sur le feedback board. Time to ship!
+Les utilisateurs TaskFlow gèrent des dizaines de tâches simultanément et demandent depuis des mois un système de catégorisation flexible. Contrairement aux projets fixes, les tags permettraient d'organiser dynamiquement leurs tâches ("urgent", "client-X", "perso"). C'est une des fonctionnalités les plus votées sur le feedback board. Time to ship!
 
 ## WHAT
 
