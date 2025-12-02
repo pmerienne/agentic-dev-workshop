@@ -3,7 +3,7 @@ En tant que développeur nouvellement onboardé, je souhaite comprendre la struc
 
 ## WHY
 
-C'est ton premier jour chez TaskFlow. Le tech lead t'a donné accès au repo et t'attend demain matin pour ta première PR. Pas de panique : l'équipe utilise GitHub Copilot pour accélérer l'onboarding. Tu dois comprendre rapidement l'architecture actuelle pour être autonome sur les prochaines évolutions. Prend le temps de bien comprendre la validation des tâches, elle est assez complexe.
+C'est ton premier jour chez TaskFlow. Le tech lead t'a donné accès au repo et t'attend demain matin pour tes premiers développements. Pas de panique : l'équipe utilise GitHub Copilot pour accélérer l'onboarding. Tu dois comprendre rapidement l'architecture actuelle pour être autonome sur les prochaines évolutions. Prends le temps de bien comprendre la validation des tâches, elle est assez complexe.
 
 ## WHAT
 
@@ -30,4 +30,4 @@ Explorer la structure de l'API TaskFlow et comprendre le rôle de chaque composa
 
 - Tu peux expliquer le rôle de chaque fichier
 - Tu comprends le flux complet d'une requête HTTP jusqu'à la base de données
-- Tu connais les 
+- Tu connais le fonctionnement de la validation des tâches
