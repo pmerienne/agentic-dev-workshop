@@ -14,11 +14,11 @@ Explorer la structure de l'API TaskFlow et comprendre le rôle de chaque composa
 - **Flux de données** : analyser le parcours complet d'une requête `POST /tasks` de l'entrée à la base de données
 
 ## HOW
-- Ouvre le chat de copilot avec Ctrl + Alt + I
+- Ouvre le chat de copilot avec `Ctrl` + `Alt` + `I` (ou `Cmd` + `Shift` + `I`)
 - Utilise **Ask Mode** pour demander :
     - "Explique-moi la responsabilité du service de gestion des tâches"
     - "Analyse le flux complet d'un POST /tasks"
-- Surligne du code, ouvre l'inline chat (Ctrl + I) et utilise `/explain` pour comprendre la fonction de validation des Task
+- Surligne du code, ouvre l'inline chat (`Ctrl` + `I` ou `Cmd` + `I`)) et utilise `/explain` pour comprendre la fonction de validation des Task
 - Pose des questions sur les cas limites et la gestion d'erreurs
 
 ## RESSOURCES
