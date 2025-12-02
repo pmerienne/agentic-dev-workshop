@@ -3,7 +3,7 @@ En tant que utilisateur méthodique, je souhaite créer des sous-tâches associ�
 
 ## WHY
 
-Le board vient d'annoncer TaskFlow Premium lors de la keynote annuelle. Les investisseurs sont enthousiastes : les sous-tâches permettront de structurer des projets complexes et de justifier l'abonnement premium. La date de livraison est déjà annoncé et l'équipe produit compte sur nous pour livrer rapidement cette fonctionnalité stratégique qui différenciera TaskFlow de la concurrence.
+Le board vient d'annoncer TaskFlow Premium lors de la keynote annuelle. Les investisseurs sont enthousiastes : les sous-tâches permettront de structurer des projets complexes et de justifier l'abonnement premium. La date de livraison est déjà annoncée et l'équipe produit compte sur nous pour livrer rapidement cette fonctionnalité stratégique qui différenciera TaskFlow de la concurrence.
 
 ## WHAT
 
@@ -111,7 +111,7 @@ Le board vient d'annoncer TaskFlow Premium lors de la keynote annuelle. Les inve
 ## HOW
 
 - Avant de coder : utilise Copilot en mode **Plan** pour générer **une spécification détaillée** de cette US. Comme il s'agit de gros changements, demande explicitement à Copilot de découper les besoins en plusieurs petites étapes
-- Une fois le plan prêt, au lieu de démarrer les développement, demande plutôt à copilot d'écrir un fichier de spécifications pour chaque étape
+- Une fois le plan prêt, au lieu de démarrer les développement, demande plutôt à copilot d'écrire un fichier de spécifications pour chaque étape
 - Utilise ensuite Copilot en mode agent dans des sessions différentes pour développer les sous-tâches 1 à 1
 
 ## VALIDATION CRITERIA
