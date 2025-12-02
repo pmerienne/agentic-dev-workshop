@@ -4,7 +4,7 @@ Ce repository est un support de workshop pour apprendre le développement agenti
 
 ## 🎯 Objectif
 
-Pratiquer le développement agentic en développant des user stories progressives sur un projet d'API de gestion de tâches. Vous apprendrez à utiliser efficacement GitHub Copilot (modes Ask, Edit et Agent) pour accélérer votre développement tout en maintenant la qualité du code.
+Pratiquer le développement agentic en développant une API HTTP de gestion de tâches. Vous apprendrez à utiliser efficacement GitHub Copilot pour accélérer votre développement tout en maintenant la qualité du code.
 
 
 ## Prérequis
