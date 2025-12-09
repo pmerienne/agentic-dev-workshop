@@ -1,7 +1,7 @@
 from contextlib import asynccontextmanager
 from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse
-from task_flow_api.api import router as tasks_router
+from task_flow_api.controller import router as tasks_router
 from task_flow_api.db import init_db
 
 
