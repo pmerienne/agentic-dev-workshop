@@ -15,6 +15,12 @@ task_flow_api/
 ```
 
 ## Dev guide
+This project use [astral uv](https://docs.astral.sh/uv/) as a dependency manager.
+You need to [install it](https://docs.astral.sh/uv/getting-started/installation/) :
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
 
 To set up the project, follow these steps:
 ```bash
