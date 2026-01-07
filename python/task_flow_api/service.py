@@ -1,19 +1,21 @@
+from typing import List
+
 from task_flow_api import repository
 from task_flow_api.model import Task, TaskStatus
 
 
-def create_task(task: Task):
+def create_task(task: Task) -> Task:
     assert task.id is None, f"Task already exists with id: {task.id}"
     _vld_tsk_bfr_crt(task)
 
     return repository.save(task)
 
 
-def get_task(task_id: int):
+def get_task(task_id: int) -> Task:
     return repository.get(task_id)
 
 
-def update_task(task_id: int, title: str, description: str, status: TaskStatus):
+def update_task(task_id: int, title: str, description: str, status: TaskStatus) -> Task:
     task = repository.get(task_id)
     _vld_tsk_bfr_crt(task)
     task.title = title
@@ -28,7 +30,7 @@ def delete_task(task_id: int):
     return repository.delete(task_id)
 
 
-def list_tasks() -> list[Task]:
+def list_tasks() -> List[Task]:
     return repository.find_all()
 
 

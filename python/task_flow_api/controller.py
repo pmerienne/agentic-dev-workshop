@@ -1,6 +1,9 @@
+from typing import List
+
 from fastapi import APIRouter, HTTPException
-from task_flow_api.model import Task
+
 from task_flow_api import service
+from task_flow_api.model import Task
 
 router = APIRouter()
 
@@ -16,7 +19,7 @@ async def create_task(task: Task):
 
 
 @router.get("/tasks")
-async def get_all() -> list[Task]:
+async def get_all() -> List[Task]:
     return service.list_tasks()
 
 
