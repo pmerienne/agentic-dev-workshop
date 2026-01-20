@@ -35,18 +35,6 @@ Créer une bibliothèque de prompt files pour automatiser les tâches récurrent
   - Inclut la validation et la gestion d'erreurs
   - Respecte les custom instructions du projet
 
-### 4. Prompt `/adr` - Créer un Architectural Decision Record
-- **Objectif** : Générer un ADR structuré pour une décision architecturale
-- **Input variables** :
-  - Context (problème, contraintes, exigences)
-  - Decision (solution choisie avec justification)
-  - Alternatives (autres options considérées)
-  - Stakeholders (parties prenantes)
-- **Comportement** :
-  - Suit le format standardisé ADR avec front matter
-  - Documente les conséquences positives et négatives
-  - Inclut les alternatives avec justification du rejet
-  - Sauvegarde dans `/docs/adr/` avec convention `adr-NNNN-[title-slug].md`
 
 ## HOW
 
@@ -54,10 +42,9 @@ Créer une bibliothèque de prompt files pour automatiser les tâches récurrent
 1. Créer le prompt `.github/prompts/code-review.prompt.md`
 2. Créer le prompt `.github/prompts/api-doc.prompt.md`
 3. Créer le prompt `.github/prompts/new-endpoint.prompt.md`
-4. Créer le prompt `.github/prompts/adr.prompt.md` en utilisant le template de [awesome-copilot](https://github.com/github/awesome-copilot/blob/main/prompts/create-architectural-decision-record.prompt.md)
-5. **Tester les prompt**
+4. **Tester les prompt**
    - Ouvre le chat Copilot (`Ctrl+Alt+I`)
-   - Tape `/new-endpoint`, `/api-doc`, `/code-review` ou `/adr`
+   - Tape `/new-endpoint`, `/api-doc`, `/code-review`
    - Fournis les inputs demandés (ex: "POST" et "Comment" pour `/new-endpoint`)
    - Observe Copilot générer tout le code ou la documentation nécessaire
    - Si les résultats ne sont pas satisfaisants, modifie le prompt

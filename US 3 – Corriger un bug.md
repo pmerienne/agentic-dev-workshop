@@ -35,7 +35,7 @@ Le champ `completed` ne persiste pas lors d'un `PUT /tasks/{id}` avec `status: "
 
 ## VALIDATION CRITERIA
 
-- Un frameowork de test est configuré et fonctionnel sur le projet
+- Un framework de test est configuré et fonctionnel sur le projet
 - Un test reproduit le bug (doit échouer initialement)
 - Le bug est corrigé et le test passe au vert
 - Le champ `completed` se met à jour correctement via `PUT /tasks/{id}`
