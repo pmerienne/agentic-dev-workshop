@@ -28,8 +28,10 @@ L'API existante fournit des endpoints pour la gestion des tâches :
 
 ### 🚀 Démarrage rapide
 
-0. **Installe le projet** avec le language de ton choix (`python/README.md` ou `java/README.md`)
-1. **Lis attentivement** chaque user story (fichiers `US X - ...md`)
-2. **Suis les instructions HOW** qui guident l'utilisation des modes Copilot
-3. **Valides** que tous les critères d'acceptation sont remplis avant de passer à la suivante
-4. **Expérimentes** : n'hésitez pas à essayer différentes formulations de prompts jusqu'à obtenir un prompt qui fonctionne du premier coup
+**Installe le projet** avec le language de ton choix (`python/README.md` ou `java/README.md`)
+
+**Déroulement :**
+- **Lis attentivement** chaque user story (fichiers `US X - ...md`)-
+- **Suis les instructions HOW** qui guident l'utilisation des modes Copilot
+- **Valides** que tous les critères d'acceptation sont remplis avant de passer à la suivante
+- **Expérimentes** : n'hésitez pas à essayer différentes formulations de prompts jusqu'à obtenir un prompt qui fonctionne du premier coup
