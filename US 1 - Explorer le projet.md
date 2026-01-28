@@ -18,8 +18,8 @@ Explorer la structure de l'API TaskFlow et comprendre le rôle de chaque composa
 - Utilise **Ask Mode** pour demander :
     - "Explique-moi la responsabilité du service de gestion des tâches"
     - "Analyse le flux complet d'un POST /tasks"
-- Surligne du code, ouvre l'inline chat (`Ctrl` + `I` ou `Cmd` + `I`)) et utilise `/explain` pour comprendre la fonction de validation des Task
-- Pose des questions sur les cas limites et la gestion d'erreurs
+    - "/explain #<fonction>"
+- Surligne du code, ouvre l'inline chat (`Ctrl` + `I` ou `Cmd` + `I`)) et demande "Détail les cas limites et la gestion d'erreurs"
 
 ## RESSOURCES
 
